@@ -8,9 +8,11 @@
     
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   </head>
   
-  <body>
+  <body >
     <div class="header">
         <div class = "container" style = "height:100px">
           <div class="row" style = "height:100%">
@@ -38,7 +40,7 @@
           </div>
         </div>
     </div>
-    <div class="body">
+    <div class="body" style="background-color:#FAFAFA">
       <div class = "container">
         <div class="row">
           <div class="col-md-12" style="background-color:#FAFAFA;">
@@ -53,10 +55,23 @@
               <div class="followUser">
                 <strong>팔로우할 추천 계정</strong>
               </div>
-              <div class="followID" style="width:600px; height:216px; background-color:white; margin-top:50px;margin-bottom:50px; text-align:center;">
-                <button type="submit" style="border:none; background:none;" >
-                  
-                </button>
+              <div class="followID" style="width:600px; background-color:white; margin-top:50px;margin-bottom:50px;">
+                <div class="userInfo">
+                  <img src="https://pbs.twimg.com/profile_images/638751551457103872/KN-NzuRl.png" style="width:50px; height:50px; margin-top:10px; margin-left:10px;"></img>
+                  <a href="https://www.instagram.com/google/">google</a>   
+                  <p style="text-align:right; margin-right:20px; display:inline-block; float:right; margin-top:20px;"> <b>3일</b></p>
+                </div>
+                <div class="userContents">
+                  <img src="http://vizts.com/wp-content/uploads/2016/01/victoria-peak-night-view.jpg" style="width:600px;"></img>
+                </div>
+                <div class="likeCount" style="margin-top:20px;">
+                  <p style="margin-left:10px;"><strong>좋아요 07.21k 개</strong></p>
+                </div>
+                <div class="userMemo" style="margin-left:10px;">
+                  <p> welcome to the first class Frontend HTML & CSS 20160330<br> 
+                  <a href="https://lh3.googleusercontent.com/-yZqNSxt_o98/VVCtCuEWwXI/AAAAAAAABzs/8gHVmj7PnCoY71981_ijMiO8ZafA9qQTQ/w994-h746-no/post-18529-Peter-Griffin-blinds-CSS-gif-I-lEO1.gif">#fucking CSS</a>
+                  </p>
+                </div>  
               </div>
             </div>
           </div>
@@ -66,7 +81,33 @@
     </div>
     
     
-   
+   <!-- footer 부분 -->
+        <div class="footer" style="background-color:#FAFAFA; padding-top:20px;">
+            <center> 
+                <p> <a href="https://www.instagram.com/"><b>INSTAGRAM 정보</b></a> <a href="https://www.instagram.com/"><b>지원</b></a> <a href="https://www.instagram.com/"><b>블로그</b></a> <a href="https://www.instagram.com/"><b>관련 기사</b></a> <a href="https://www.instagram.com/"><b>API</b></a> </p>
+                <p> <a href="https://www.instagram.com/"><b>채용정보</b></a> <a href="https://www.instagram.com/"><b>개인정보보호</b></a> <a href="https://www.instagram.com/"><b>약관</b></a> <a href="https://www.instagram.com/">
+               
+                
+                <span class="dropup">
+                  <b class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true"> 언어</b>  
+                  
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                  </ul>
+                </span>
+                  
+                </a> </p>
+                <p> © <b>2016 Likelion SGU</b> </p>
+            </center>
+        </div>
+   <!-- footer 부분 -->
+    
+    // <script>
+    //   $("dropdown-toggle").dropup();
+    // </script>
   </body>
 
 
